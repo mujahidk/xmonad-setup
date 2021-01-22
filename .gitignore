@@ -1,0 +1,7 @@
+.config/htop/**
+.xmonad/xmonad.hi
+.xmonad/xmonad.errors
+.xmonad/xmonad.o
+.xmonad/xmonad*linux
+.config/nvim/.netrwhist
+
