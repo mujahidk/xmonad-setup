@@ -1,9 +1,9 @@
   REPO_HOME=~/Projects/Personal/xmonad-setup
 
-  ln -s $REPO_HOME/.config/ .config
-  ln -s $REPO_HOME/.xmonad/ .xmonad/
-  ln -s $REPO_HOME/.xmonad/ .xmonad
-  ln -s $REPO_HOME/.xmobarrc .xmobarrc
-  ln -s $REPO_HOME/.Xdefaults .Xdefaults
-  ln -s $REPO_HOME/.bash_aliases .bash_aliases
-  ln -s $REPO_HOME/.tmux.conf .tmux.conf
+  ln -s $REPO_HOME/.config/ ~/.config
+  ln -s $REPO_HOME/.xmonad/ ~/.xmonad/
+  ln -s $REPO_HOME/.xmonad/ ~/.xmonad
+  ln -s $REPO_HOME/.xmobarrc ~/.xmobarrc
+  ln -s $REPO_HOME/.Xdefaults ~/.Xdefaults
+  ln -s $REPO_HOME/.bash_aliases ~/.bash_aliases
+  ln -s $REPO_HOME/.tmux.conf ~/.tmux.conf
