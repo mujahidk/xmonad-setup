@@ -1,0 +1,18 @@
+[core]
+  editor = vi
+[alias]
+  h = log --pretty=format:'%h %ad | %s%d [%an]' --date=short
+  s = status
+  c = commit
+  cs = commit -S
+  ch = checkout
+  d = diff
+  ds = diff --staged
+  f = fetch --all
+  a = add
+  m = merge
+  p = pull
+  ps = push
+  l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+[pull]
+  ff = only
