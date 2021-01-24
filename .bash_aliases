@@ -26,6 +26,7 @@ alias ......='cd ../../../../..'
 alias md='mkdir -p'
 
 alias g='git'
+alias dc="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME/"
 
 alias dotfiles="cd ~/Projects/Personal/dotfiles/"
 alias projects="cd ~/Projects/Work/"
