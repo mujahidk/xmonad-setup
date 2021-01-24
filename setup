@@ -8,4 +8,5 @@ apt install neovim -y
 apt install tmux -y
 apt install fonts-firacode -y
 apt install firefox-esr -y
+apt install ranger -y
 

@@ -1,8 +1,9 @@
-Config { font = "xft:monospace:normal:size=10"
-        , borderColor = "black"
+Config { font = "xft:Fira Code:bold:size=10"
+        , borderColor = "#93a1a1"
         , border = TopB
-        , bgColor = "black"
-        , fgColor = "grey"
+	, alpha = 200
+        , bgColor = "#282c34"
+        , fgColor = "#ff6c6b"
         , position = TopW L 100
         , commands = [ Run Network "eth0" ["-L","0","-H","32","--normal","green","--high","red"] 10
                         , Run Cpu ["-L","3","-H","50","--normal","green","--high","red"] 10
@@ -13,5 +14,5 @@ Config { font = "xft:monospace:normal:size=10"
                         ]
         , sepChar = "%"
         , alignSep = "}{"
-        , template = " %cpu% | %memory% * %swap% | %eth0% }{<fc=#ee9a00>%date%</fc> | %uname% "
+        , template = " %cpu% | %memory% * %swap% | %eth0% }-*- Xmonad -*-{<fc=#ee9a00>%date%</fc> | %uname% "
         }
