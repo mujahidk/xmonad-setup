@@ -1,0 +1,21 @@
+xterm.termName: xterm-256color
+xterm*metaSendsEscape: true
+xterm*backarrowKey: false
+xterm.ttyModes: erase ^?
+
+xterm*faceName: Courier
+xterm*faceSize: 10
+
+! xterm*translations: #override \n\
+! Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+! Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+! Fonts {{{
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.hintstyle: hintfull
+Xft.dpi:       180
+! }}}
+
+
