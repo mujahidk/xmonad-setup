@@ -31,3 +31,5 @@ alias dc="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME/"
 alias dotfiles="cd ~/Projects/Personal/dotfiles/"
 alias projects="cd ~/Projects/Work/"
 alias wt="curl https://wttr.in/01803"
+
+compton-trans -w "$WINDOWID" 95

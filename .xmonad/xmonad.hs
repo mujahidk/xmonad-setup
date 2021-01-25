@@ -253,6 +253,7 @@ myLogHook = ()
 myStartupHook = do
         spawnOnce "xrandr -s 1920x1200"
         spawnOnce "nitrogen --restore &"
+        spawnOnce "compton &"
 
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
