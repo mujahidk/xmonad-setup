@@ -4,4 +4,4 @@
 .xmonad/xmonad.o
 .xmonad/xmonad*linux
 .config/nvim/.netrwhist
-
+.cfg
