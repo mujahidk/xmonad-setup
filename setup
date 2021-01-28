@@ -10,4 +10,4 @@ apt install fonts-firacode -y
 apt install firefox-esr -y
 apt install ranger -y
 apt install compton -y
-
+apt install nitrogen -y

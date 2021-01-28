@@ -1,4 +1,4 @@
-URxvt.font: xft:agave NF:size=10:antialias=true
+URxvt.font: xft:agave Nerd Font:size=10:antialias=true
 
 URxvt.scrollstyle: xterm
 URxvt.scrollBar_right: True

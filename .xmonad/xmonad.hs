@@ -251,7 +251,7 @@ myLogHook = ()
 --
 -- By default, do nothing.
 myStartupHook = do
-        spawnOnce "xrandr -s 1920x1200"
+        spawnOnce "xrandr -s 1920x1080"
         spawnOnce "nitrogen --restore &"
         spawnOnce "compton &"
 

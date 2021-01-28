@@ -1,4 +1,4 @@
-Config { font = "xft:agave NF:normal:size=10"
+Config { font = "xft:agave Nerd Font:normal:size=10"
         , borderColor = "#93a1a1"
         , border = TopB
         , alpha = 200
