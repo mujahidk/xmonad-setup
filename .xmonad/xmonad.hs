@@ -282,7 +282,7 @@ main = do
         layoutHook         = myLayout,
         manageHook         = myManageHook,
         handleEventHook    = myEventHook,
-        logHook            = dynamicLogWithPP $ def { ppOutput = hPutStrLn xmproc },
+        logHook            = dynamicLogWithPP $ sjanssenPP { ppOutput = hPutStrLn xmproc },
         startupHook        = myStartupHook
     }
 

@@ -1,13 +1,15 @@
-apt install git -y
-apt install lightdm -y
-apt install xmonad libghc-xmonad-dev libghc-xmonad-contrib-dev -y
-apt install rxvt-unicode -y
-apt install x11-xserver-utils -y
-apt install xmobar -y
-apt install neovim -y
-apt install tmux -y
-apt install fonts-firacode -y
-apt install firefox-esr -y
-apt install ranger -y
-apt install compton -y
-apt install nitrogen -y
+apt install -y \
+  git \
+  lightdm \
+  xmonad libghc-xmonad-dev libghc-xmonad-contrib-dev \
+  rxvt-unicode \
+  x11-xserver-utils \
+  xmobar \
+  neovim \
+  tmux \
+  fonts-firacode \
+  firefox-esr \
+  ranger \
+  compton \
+  nitrogen \
+  libnotify4
