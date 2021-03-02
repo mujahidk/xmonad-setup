@@ -12,4 +12,7 @@ apt install -y \
   ranger \
   compton \
   nitrogen \
+  neofetch \
+  exa \
+  tty-clock \
   libnotify4
